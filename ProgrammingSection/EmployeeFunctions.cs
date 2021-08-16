@@ -8,7 +8,7 @@ namespace InterviewEvaluation
     /// Below is a series of functions to retrieve and modify data for collection of employee data.  These functions are meant to not require any outside dependencies.
     /// For that reason there is a DataSeeder.cs class that will generate test data for this exercise.  The DataSeeder.cs class is not in scope and does not need to be examined.
     /// Please review the code below and come prepared to talk about any changes you would make to improve readability, accuracy, and organization of the code.
-    /// It is important to not there is no correct answer here. This is just an exercise to evaluate your ability to read code.  
+    /// It is important to note there is no correct answer here. This is just an exercise to evaluate your ability to read code.  
     /// As well as to see how you communicate with other members of the team about the code.
     /// </summary>
     public class EmployeeFunctions

@@ -7,9 +7,9 @@ There are two sections to review: the database section and the programming secti
 There is a sql script creating a table to store infromation about consultants.  Please review this table for optimization, normalization, and consistency.
     
 ### [Programming Section](https://github.com/streck-it/InterviewEvaluation/tree/main/ProgrammingSection)
-The programming section contains functionality to work with employees. These functions are meant to not require any outside dependencies.  
+The programming section contains functionality to work with employees. These functions do not require any outside dependencies.  
 
-The [DataSeeder.cs](https://github.com/streck-it/InterviewEvaluation/blob/main/ProgrammingSection/DataSeeder.cs) file is meant to serve as a method to generate data and give an example of what data could look like.  The DataSeeder.cs file is not in scope and does not need to be examined.
+The [DataSeeder.cs](https://github.com/streck-it/InterviewEvaluation/blob/main/ProgrammingSection/DataSeeder.cs) file serves as a method to generate data and give an example of what data could look like.  The DataSeeder.cs file is not in scope and does not need to be examined.
 
 [Employee.cs](https://github.com/streck-it/InterviewEvaluation/blob/main/ProgrammingSection/Employee.cs) is the object representing the information about an Employee.
 

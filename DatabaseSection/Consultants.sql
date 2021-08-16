@@ -14,6 +14,8 @@ CREATE TABLE [dbo].[Consultants](
 	[Manager_FirstName] [nvarchar](50) NOT NULL,
 	[Manager_LastName] [nvarchar](50) NOT NULL,
 	[ContractPrice] [decimal](18, 2) NOT NULL,
+	[ContractStartDate] [datetime] NULL,
+	[ContractEndDate] [datetime] NULL,
 	[Email] [nvarchar](50) NULL,
 	[phone_number] [nchar](11) NULL,
 	[jobTitleName] [nvarchar](10) NOT NULL,

@@ -1,10 +1,10 @@
 # Interview Evaluation
 
-In this repo you will find two sections for evaluation. These sections are not related and should be considered indepently. Please take the time to review this code and come prepared to talk about any changes you would make to improve readability, accuracy, and organization.
+In this repo you will find two sections for evaluation. These sections are not related and should be considered independently. Please take the time to review this code and come prepared to talk about any changes you would make to improve readability, accuracy, and organization.
 
 There are two sections to review: the database section and the programming section.
 ### [Database Section](https://github.com/streck-it/InterviewEvaluation/tree/main/DatabaseSection)
-There is a sql script creating a table to store infromation about consultants.  Please review this table for optimization, normalization, and consistency.
+There is a sql script creating a table to store information about consultants.  Please review this table for optimization, normalization, and consistency.
     
 ### [Programming Section](https://github.com/streck-it/InterviewEvaluation/tree/main/ProgrammingSection)
 The programming section contains functionality to work with employees. These functions do not require any outside dependencies.  

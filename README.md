@@ -15,4 +15,4 @@ The [DataSeeder.cs](https://github.com/streck-it/InterviewEvaluation/blob/main/P
 
 [EmployeeFunctions.cs](https://github.com/streck-it/InterviewEvaluation/blob/main/ProgrammingSection/EmployeeFunctions.cs) contains code that will query and modify a collection Employees.
 
-Please review the code below and come prepared to talk about any changes you would make to improve the readability, accuracy, and organization of the code. It is important to note there is no correct answer here. This is just an exercise to evaluate your ability to read and understand code.  As well as to see how you collaborate with other members of the team about the code.
+Please review the code in this repository and come prepared to talk about any changes you would make to improve the readability, accuracy, and organization of the code. It is important to note there is no correct answer here. This is just an exercise to evaluate your ability to read and understand code.  As well as to see how you collaborate with other members of the team about the code.

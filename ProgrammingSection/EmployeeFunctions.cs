@@ -5,9 +5,10 @@ using System.Linq;
 namespace InterviewEvaluation
 {
     /// <summary>
-    /// Below is a series of functions to retrieve and modify a collection of employee data.  These functions are meant to not require any outside dependencies.
-    /// For that reason there is a DataSeeder.cs class that will generate test data for this exercise.  The DataSeeder.cs class is not in scope and does not need to be examined.
-    /// Please review the code below and come prepared to talk about any changes you would make to improve readability, accuracy, and organization of the code.
+    /// Below is a series of functions to retrieve and modify a collection of employee data.  These functions are meant to not require any outside dependencies like a database.
+    /// For that reason, a collection of Employees will be created in the constructor of the EmployeeFunctions class to simulate a table of Employees.
+    ///
+    /// Please review the code below and come prepared to talk about any changes you would make to improve readability, accuracy, consistency, and organization of the code.
     /// It is important to note there is no correct answer here. This is just an exercise to evaluate your ability to read code.  
     /// As well as to see how you communicate with other members of the team about the code.
     /// </summary>
@@ -19,7 +20,13 @@ namespace InterviewEvaluation
         {
             //This exercise is meant to be self contained.
             //This collection of employee data is meant to replicate data you may query from a database, repository, or other source.
-            Employees = DataSeeder.SeedData();
+            Employees = new List<Employee>()
+            {
+                new Employee(1, "John","Doe", "IT", "Programmer", 10000),
+                new Employee(2, "John", "Dont", "Finance", "CFO", 10000),
+                new Employee(3, "Jane", "Doe", "Sales", "Domestic Sales Rep", 10000),
+                new Employee(4, "Jane", "Dont", "Maintenance", "Custodian", 10000)
+            };
         }
 
         /// <summary>

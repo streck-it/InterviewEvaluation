@@ -31,5 +31,15 @@ namespace InterviewEvaluation
         public decimal Salary { get; set; }
 
         public Employee() { }
+
+        public Employee(int id, string firstName, string lastName, string department, string jobTitle, decimal salary)
+        {
+            Id = id;
+            FirstName = firstName;
+            LastName = lastName;
+            Department = department;
+            Job_Title = jobTitle;
+            Salary = salary;
+        }
     }
 }
